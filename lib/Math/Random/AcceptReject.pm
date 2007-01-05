@@ -4,7 +4,7 @@ use 5.006;
 use strict;
 use warnings;
 
-our $VERSION = '0.01';
+our $VERSION = '0.02';
 
 use Carp qw/croak/;
 use Math::Symbolic qw/parse_from_string/;
@@ -48,7 +48,7 @@ distributed random numbers to mostly arbitrary probability density functions
 (I<PDF>s).
 
 Note that whereas J. von Neumann's algorithm can transform from arbitrary
-source PDFs arbitrary destination PDFs, this module is currently limited to
+source PDFs to arbitrary destination PDFs, this module is currently limited to
 uniform C<[0,1]> source PDFs!
 
 =head1 METHODS
@@ -203,11 +203,11 @@ The examples in the F<examples/> subdirectory of this distribution.
 
 =head1 AUTHOR
 
-Steffen Müller, E<lt>smueller@cpan.orgE<gt>
+Steffen Mueller, E<lt>smueller@cpan.orgE<gt>
 
 =head1 COPYRIGHT AND LICENSE
 
-Copyright (C) 2007 by Steffen Müller
+Copyright (C) 2007 by Steffen Mueller
 
 This library is free software; you can redistribute it and/or modify
 it under the same terms as Perl itself, either Perl version 5.6 or,
